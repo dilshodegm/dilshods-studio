@@ -1,0 +1,690 @@
+{
+  "version": 1,
+  "phases": [
+    {
+      "key": "discovery",
+      "number": "01",
+      "title": "Discovery",
+      "summary": "Understand the business, its audience and its category before any visual decision is made.",
+      "pages": [
+        {
+          "key": "overview",
+          "code": "01.0",
+          "title": "overview",
+          "description": "What this phase is for, what goes in and what must come out before strategy starts.",
+          "tip": { "title": "principle", "text": "Every design decision later must trace back to something written in this section." },
+          "blocks": [
+            { "type": "info", "key": "goal", "label": "Goal", "text": "Understand the business, its audience and its category before any visual decision is made." },
+            { "type": "info", "key": "rule", "label": "Rule", "text": "No logos, colours or moodboards in this phase. Collect facts, not opinions." },
+            { "type": "info", "key": "inputs", "label": "Inputs", "text": "Client brief, stakeholder interviews, existing brand assets, analytics, customer reviews, sales material." },
+            { "type": "info", "key": "activities", "label": "Activities", "text": "1 Brief and kickoff\n2 Stakeholder interviews\n3 Audience research\n4 Competitor and category review\n5 Brand audit\n6 Synthesis" },
+            { "type": "info", "key": "outputs", "label": "Outputs", "text": "Discovery summary: problem, insights, opportunity, constraints, success criteria." },
+            { "type": "info", "key": "done_when", "label": "Done when", "text": "The client has read and approved the summary. It becomes the input for 02 strategy." }
+          ]
+        },
+        {
+          "key": "client_brief",
+          "code": "01.1",
+          "title": "client brief",
+          "description": "The reason the project exists and the rules of the engagement. Fill in during the kickoff call, then confirm in writing.",
+          "tip": { "title": "how to", "text": "Ask why at least twice. The first answer is the request, the second is the real problem." },
+          "blocks": [
+            { "type": "field", "key": "why_now", "label": "Why now?", "hint": "What triggered this project: launch, growth, repositioning, merger, new market?" },
+            { "type": "field", "key": "business_goal", "label": "Business goal", "hint": "What must the brand help the business achieve? Tie it to a measurable outcome." },
+            { "type": "field", "key": "success_12_months", "label": "Success in 12 months", "hint": "How will we know the new brand works? Metrics, signals, perception shifts." },
+            { "type": "field", "key": "scope", "label": "Scope and deliverables", "hint": "Identity, guidelines, website, packaging, motion, templates. What is in and what is out." },
+            { "type": "field", "key": "budget_timeline", "label": "Budget and timeline", "hint": "Budget range, hard deadlines, launch date, key milestones." },
+            { "type": "field", "key": "decision_makers", "label": "Decision makers", "hint": "Who approves, who gives feedback, how many rounds, who has the final say." },
+            { "type": "field", "key": "non_negotiables", "label": "Non-negotiables", "hint": "What must stay: name, colour, symbol, legal or technical constraints." },
+            { "type": "field", "key": "references", "label": "References", "hint": "Brands they admire and dislike, and why. Collect words, not just pictures." }
+          ]
+        },
+        {
+          "key": "business",
+          "code": "01.2",
+          "title": "business",
+          "description": "What the company is, how it earns and where it is going. The brand has to fit the business it will serve in three years, not only today.",
+          "tip": { "title": "how to", "text": "Interview the founder, sales and support separately. Note where their answers disagree." },
+          "blocks": [
+            { "type": "field", "key": "offer", "label": "What do you sell?", "hint": "The offer in one plain sentence. No jargon." },
+            { "type": "field", "key": "business_model", "label": "Business model", "hint": "How the company makes money: pricing, channels, the margins that matter." },
+            { "type": "field", "key": "origin_story", "label": "Origin story", "hint": "Why the company exists and what the founders believe." },
+            { "type": "field", "key": "mission_vision_values", "label": "Mission, vision, values", "hint": "Written or unwritten. Note what is real versus what is on the wall." },
+            { "type": "field", "key": "unfair_advantage", "label": "Unfair advantage", "hint": "What the business does better than anyone else, with proof." },
+            { "type": "field", "key": "plan_3_5_years", "label": "3 to 5 year plan", "hint": "New products, markets and audiences the brand must be able to stretch to." },
+            { "type": "field", "key": "product_architecture", "label": "Product architecture", "hint": "Products, services, sub-brands and how they relate." },
+            { "type": "field", "key": "biggest_challenge", "label": "Biggest challenge", "hint": "What is blocking growth today: awareness, trust, differentiation, price?" }
+          ]
+        },
+        {
+          "key": "audience",
+          "code": "01.3",
+          "title": "audience",
+          "description": "Who the brand is for and what they need from it. Behaviour and context matter more than age and income.",
+          "tip": { "title": "sources", "text": "Customer interviews, reviews, support tickets, analytics, the sales team. Quote real words." },
+          "blocks": [
+            { "type": "field", "key": "primary_audience", "label": "Primary audience", "hint": "Who they are: role, context, life stage. Behaviour over demographics." },
+            { "type": "field", "key": "secondary_audiences", "label": "Secondary audiences", "hint": "Partners, investors, talent, regulators. Anyone the brand must also speak to." },
+            { "type": "field", "key": "jobs_to_be_done", "label": "Jobs to be done", "hint": "What they are trying to get done when they come to this category." },
+            { "type": "field", "key": "pains", "label": "Pains and frustrations", "hint": "What annoys them about the current options." },
+            { "type": "field", "key": "motivations", "label": "Motivations and triggers", "hint": "What makes them act, and what makes them hesitate." },
+            { "type": "field", "key": "how_they_choose", "label": "How they choose", "hint": "Criteria, alternatives considered, who influences the decision." },
+            { "type": "field", "key": "attention", "label": "Where attention lives", "hint": "Channels, communities, media and touchpoints they actually use." },
+            { "type": "field", "key": "desired_feeling", "label": "Desired feeling", "hint": "How should they feel after meeting the brand? Three words maximum." }
+          ]
+        },
+        {
+          "key": "competitors",
+          "code": "01.4",
+          "title": "competitors and category",
+          "description": "How the other players look, sound and position themselves. The goal is to find the codes of the category and the space nobody owns.",
+          "tip": { "title": "how to", "text": "Put all competitor logos, colours and homepages on one board. The cliches become obvious." },
+          "blocks": [
+            {
+              "type": "table",
+              "key": "competitor_table",
+              "label": "Competitors",
+              "columns": [
+                { "key": "positioning", "label": "positioning" },
+                { "key": "visual_language", "label": "visual language" },
+                { "key": "tone_of_voice", "label": "tone of voice" },
+                { "key": "strengths", "label": "strengths" },
+                { "key": "weaknesses", "label": "weaknesses" }
+              ],
+              "rows": [
+                { "key": "direct_01", "label": "direct 01" },
+                { "key": "direct_02", "label": "direct 02" },
+                { "key": "direct_03", "label": "direct 03" },
+                { "key": "indirect", "label": "indirect" },
+                { "key": "aspirational", "label": "aspirational" }
+              ],
+              "allowAddRows": true
+            },
+            { "type": "field", "key": "category_cliches", "label": "Category cliches", "hint": "Colours, symbols, words and layouts that everyone in the category uses." },
+            { "type": "field", "key": "white_space", "label": "White space", "hint": "Where the brand can look, sound or behave differently and still be credible." }
+          ]
+        },
+        {
+          "key": "brand_audit",
+          "code": "01.5",
+          "title": "brand audit",
+          "optional": true,
+          "description": "For rebrands only. An honest review of what exists today: what carries value and what holds the brand back.",
+          "tip": { "title": "skip if", "text": "The brand is new and has no assets in use. Go straight to the summary." },
+          "blocks": [
+            { "type": "field", "key": "asset_inventory", "label": "Asset inventory", "hint": "Logo, colour, type, imagery, iconography, voice, motion. Collect everything in use." },
+            { "type": "field", "key": "brand_equity", "label": "Brand equity", "hint": "What is recognisable and loved. Keep or evolve it, do not throw value away." },
+            { "type": "field", "key": "what_is_broken", "label": "What is broken", "hint": "Inconsistent, outdated, illegible or impossible to apply." },
+            { "type": "field", "key": "perception_today", "label": "Perception today", "hint": "How the team sees the brand versus how customers describe it." },
+            { "type": "field", "key": "touchpoints_reviewed", "label": "Touchpoints reviewed", "hint": "Website, product, social, packaging, sales decks, signage, support." },
+            { "type": "field", "key": "perception_gap", "label": "Perception gap", "hint": "From: how we are seen today.\nTo: how we need to be seen." }
+          ]
+        },
+        {
+          "key": "summary",
+          "code": "01.6",
+          "title": "discovery summary",
+          "description": "Everything above, reduced to one page the client signs. This page is the brief for 02 strategy.",
+          "tip": { "title": "next", "text": "02 strategy: positioning, brand personality, tone of voice." },
+          "exportable": true,
+          "blocks": [
+            { "type": "field", "key": "problem", "label": "Problem to solve", "hint": "One sentence. If it takes a paragraph, discovery is not finished." },
+            { "type": "field", "key": "key_insights", "label": "Key insights", "hint": "3 to 5 findings about the business, audience and category that will drive decisions." },
+            { "type": "field", "key": "opportunity", "label": "Opportunity", "hint": "The white space the brand can own." },
+            { "type": "field", "key": "constraints_risks", "label": "Constraints and risks", "hint": "Budget, time, legal, technical, political." },
+            { "type": "field", "key": "success_criteria", "label": "Success criteria", "hint": "Agreed, measurable, signed off by the decision maker." },
+            { "type": "signoff", "key": "signoff", "label": "Sign-off", "hint": "Client name, date, approved to move to 02 strategy." }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "strategy",
+      "number": "02",
+      "title": "Strategy",
+      "summary": "Turn what we learned into choices: who the brand is for, what it stands for and how it is different.",
+      "pages": [
+        {
+          "key": "purpose",
+          "code": "02.1",
+          "title": "purpose, vision, mission, values",
+          "description": "The foundation. Why the brand exists, where it is going and the principles it will not trade away.",
+          "tip": { "title": "test", "text": "If a competitor could sign the same sentence, it is not specific enough." },
+          "blocks": [
+            { "type": "field", "key": "purpose", "label": "Purpose", "hint": "Why the brand exists beyond making money. One sentence." },
+            { "type": "field", "key": "vision", "label": "Vision", "hint": "The future the brand wants to create. Where it will be in 5 to 10 years." },
+            { "type": "field", "key": "mission", "label": "Mission", "hint": "What the brand does every day to get there, and for whom." },
+            { "type": "field", "key": "value_01", "label": "Value 01", "hint": "Name the value, then describe the behaviour that proves it." },
+            { "type": "field", "key": "value_02", "label": "Value 02", "hint": "Name the value, then describe the behaviour that proves it." },
+            { "type": "field", "key": "value_03", "label": "Value 03", "hint": "Name the value, then describe the behaviour that proves it." }
+          ]
+        },
+        {
+          "key": "audience_focus",
+          "code": "02.2",
+          "title": "audience focus",
+          "description": "Strategy is a choice. From everyone in discovery, pick the one audience the brand is built for and the insight that unlocks them.",
+          "tip": { "title": "source", "text": "01.3 audience. Use their real words wherever you can." },
+          "blocks": [
+            { "type": "field", "key": "core_audience", "label": "Core audience", "hint": "The one segment the brand is built for. Choosing is the point." },
+            { "type": "field", "key": "not_for", "label": "Not for", "hint": "Who we are willing to lose in order to be sharp." },
+            { "type": "field", "key": "key_insight", "label": "Key insight", "hint": "A truth about the audience that the category ignores. I want this, but that gets in the way." },
+            { "type": "field", "key": "need", "label": "Need we answer", "hint": "The functional and emotional need the brand resolves." },
+            { "type": "field", "key": "current_belief", "label": "Current belief", "hint": "What they think about the category or the brand today." },
+            { "type": "field", "key": "desired_belief", "label": "Desired belief", "hint": "What we want them to think after meeting the brand." }
+          ]
+        },
+        {
+          "key": "positioning",
+          "code": "02.3",
+          "title": "positioning",
+          "description": "The place the brand owns in the mind of its audience, relative to the alternatives. The centre of the whole strategy.",
+          "tip": { "title": "test", "text": "Is it true? Does the audience care? Is it different from competitors? Can the business deliver it?" },
+          "blocks": [
+            { "type": "field", "key": "for", "label": "For", "hint": "The core audience from 02.2." },
+            { "type": "field", "key": "who_need", "label": "Who need", "hint": "The need or tension they have." },
+            { "type": "field", "key": "category", "label": "Brand is the", "hint": "Category or frame of reference people will compare it in." },
+            { "type": "field", "key": "that", "label": "That", "hint": "The single most important difference or benefit." },
+            { "type": "field", "key": "because", "label": "Because", "hint": "Reasons to believe. Three proofs the business can show." },
+            { "type": "field", "key": "unlike", "label": "Unlike", "hint": "The main alternative and what it fails to do." },
+            { "type": "field", "key": "statement", "label": "Positioning statement", "hint": "For [audience] who [need], [brand] is the [category] that [difference], because [proof].", "wide": true }
+          ]
+        },
+        {
+          "key": "brand_idea",
+          "code": "02.4",
+          "title": "brand idea",
+          "description": "One thought that holds the brand together. The bridge between strategy and design: identity, copy and behaviour all grow from it.",
+          "tip": { "title": "test", "text": "Can a designer start sketching from it? If not, it is still a description, not an idea." },
+          "blocks": [
+            { "type": "field", "key": "brand_idea", "label": "Brand idea", "hint": "One thought in two to five words. The centre everything grows from." },
+            { "type": "field", "key": "meaning", "label": "What it means", "hint": "Two or three sentences that unpack the idea for the team." },
+            { "type": "field", "key": "promise", "label": "Brand promise", "hint": "What people can always expect from the brand." },
+            { "type": "field", "key": "story", "label": "Brand story", "hint": "Short narrative: the world today, the tension, what the brand changes." },
+            { "type": "field", "key": "how_it_shows_up", "label": "How it shows up", "hint": "Product, service, communication, behaviour. One example each." },
+            { "type": "field", "key": "tagline_options", "label": "Tagline options", "hint": "Optional. An external line that expresses the idea. Not the idea itself." }
+          ]
+        },
+        {
+          "key": "personality",
+          "code": "02.5",
+          "title": "brand personality",
+          "description": "If the brand were a person, who would walk into the room. Three to four traits, each with a limit so it does not become a caricature.",
+          "tip": { "title": "format", "text": "We are this, but never that. Confident, but never arrogant." },
+          "blocks": [
+            { "type": "field", "key": "trait_01", "label": "Trait 01", "hint": "We are [trait], but never [its extreme]. What it looks like in practice." },
+            { "type": "field", "key": "trait_02", "label": "Trait 02", "hint": "We are [trait], but never [its extreme]. What it looks like in practice." },
+            { "type": "field", "key": "trait_03", "label": "Trait 03", "hint": "We are [trait], but never [its extreme]. What it looks like in practice." },
+            { "type": "field", "key": "trait_04", "label": "Trait 04", "hint": "We are [trait], but never [its extreme]. What it looks like in practice." },
+            { "type": "field", "key": "archetype", "label": "Archetype", "hint": "Optional shortcut. Use it as a prompt, not as the answer." },
+            { "type": "field", "key": "as_a_person", "label": "As a person", "hint": "How they dress, talk and behave in a room." },
+            { "type": "field", "key": "we_are_never", "label": "We are never", "hint": "Traits that would feel off-brand." },
+            { "type": "field", "key": "scales", "label": "On the scales", "hint": "Playful or serious, modern or classic, loud or quiet, premium or accessible." }
+          ]
+        },
+        {
+          "key": "voice",
+          "code": "02.6",
+          "title": "tone of voice and messaging",
+          "description": "How the personality sounds in words, and what the brand says first. Write real sentences, not adjectives.",
+          "tip": { "title": "how to", "text": "Rewrite one existing headline in the new voice. If nothing changes, the principles are too vague." },
+          "blocks": [
+            { "type": "field", "key": "voice_principle_01", "label": "Voice principle 01", "hint": "Name it, explain it, show one example sentence." },
+            { "type": "field", "key": "voice_principle_02", "label": "Voice principle 02", "hint": "Name it, explain it, show one example sentence." },
+            { "type": "field", "key": "voice_principle_03", "label": "Voice principle 03", "hint": "Name it, explain it, show one example sentence." },
+            { "type": "field", "key": "we_say_we_dont", "label": "We say, we do not say", "hint": "Two real sentences side by side for each principle." },
+            { "type": "field", "key": "core_message", "label": "Core message", "hint": "The one thing people must remember." },
+            { "type": "field", "key": "supporting_messages", "label": "Supporting messages", "hint": "Three proof-led messages for the core audience." },
+            { "type": "field", "key": "vocabulary", "label": "Vocabulary", "hint": "Words we own, words we avoid." },
+            { "type": "field", "key": "tone_by_context", "label": "Tone by context", "hint": "How the voice flexes: website, social, support, error states." }
+          ]
+        },
+        {
+          "key": "creative_brief",
+          "code": "02.7",
+          "title": "creative brief",
+          "description": "Strategy translated for design. The client signs this page, and every concept in 03 is judged against it instead of personal taste.",
+          "tip": { "title": "next", "text": "03 visual identity: moodboards, concepts, logo, colour, type." },
+          "exportable": true,
+          "blocks": [
+            { "type": "field", "key": "strategy_one_line", "label": "Strategy in one line", "hint": "Positioning and brand idea compressed into a single sentence." },
+            { "type": "field", "key": "should_feel", "label": "Design should feel", "hint": "Three to five feelings the identity must evoke." },
+            { "type": "field", "key": "should_never_feel", "label": "Design should never feel", "hint": "The feelings and category cliches to stay away from." },
+            { "type": "field", "key": "evaluation_criteria", "label": "Evaluation criteria", "hint": "Three to five tests every concept will be judged against." },
+            { "type": "field", "key": "must_work_on", "label": "Must work on", "hint": "Priority touchpoints and smallest sizes: app icon, packaging, signage." },
+            { "type": "field", "key": "mandatories", "label": "Mandatories", "hint": "Name, legal lines, assets to keep, accessibility requirements." },
+            { "type": "field", "key": "deliverables", "label": "Deliverables", "hint": "What 03 will produce, and in how many concept routes." },
+            { "type": "signoff", "key": "signoff", "label": "Sign-off", "hint": "Client name, date, approved to move to 03 visual identity." }
+          ]
+        },
+        {
+          "key": "naming",
+          "code": "02.8",
+          "title": "naming",
+          "optional": true,
+          "description": "Only when the brand needs a new name. The name is the first expression of the brand idea, so it comes after strategy, not before.",
+          "tip": { "title": "skip if", "text": "The brand already has a name that stays." },
+          "blocks": [
+            { "type": "field", "key": "naming_brief", "label": "Naming brief", "hint": "What the name must communicate and where it must work." },
+            { "type": "field", "key": "criteria", "label": "Criteria", "hint": "Short, pronounceable in key languages, ownable, fits the brand idea." },
+            { "type": "field", "key": "territories", "label": "Territories", "hint": "Descriptive, suggestive, abstract, founder, coined. Explore several." },
+            { "type": "field", "key": "long_list", "label": "Long list", "hint": "Quantity first. Fifty or more before judging any." },
+            { "type": "field", "key": "shortlist", "label": "Shortlist", "hint": "Three to five names, each with a rationale." },
+            { "type": "field", "key": "checks", "label": "Checks", "hint": "Trademark, domain, social handles, meaning in other languages." }
+          ]
+        },
+        {
+          "key": "architecture",
+          "code": "02.9",
+          "title": "brand architecture",
+          "optional": true,
+          "description": "Only when there is more than one product or sub-brand. How the pieces of the portfolio relate, so the identity system can be built to scale.",
+          "tip": { "title": "skip if", "text": "The brand has one product and no sub-brands." },
+          "blocks": [
+            { "type": "field", "key": "portfolio_today", "label": "Portfolio today", "hint": "Every product, service and sub-brand that exists." },
+            { "type": "field", "key": "model", "label": "Model", "hint": "Branded house, endorsed brands, house of brands or hybrid." },
+            { "type": "field", "key": "hierarchy", "label": "Hierarchy", "hint": "Master brand, sub-brands, product names, descriptors." },
+            { "type": "field", "key": "naming_rules", "label": "Naming rules", "hint": "How new products get named." },
+            { "type": "field", "key": "visual_relationship", "label": "Visual relationship", "hint": "How strongly each level borrows from the master brand." },
+            { "type": "field", "key": "future_additions", "label": "Future additions", "hint": "What is planned and where it would sit." }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "identity",
+      "number": "03",
+      "title": "Identity",
+      "summary": "Give the strategy a face: a visual system that is distinctive, consistent and flexible across every touchpoint.",
+      "pages": [
+        {
+          "key": "territories",
+          "code": "03.1",
+          "title": "visual territories",
+          "description": "Two or three distinct directions the identity could take, each grounded in the creative brief. Agree on a direction before drawing a logo.",
+          "tip": { "title": "how to", "text": "Mix type, colour, imagery and texture on each board. Avoid other logos, they anchor the client." },
+          "blocks": [
+            {
+              "type": "territory",
+              "key": "a",
+              "label": "Territory a",
+              "fields": [
+                { "key": "name", "label": "Territory a", "hint": "Name the direction in two or three words." },
+                { "key": "keywords", "label": "Keywords", "hint": "Three to five words this direction should feel like." }
+              ],
+              "moodboard": { "hint": "images, type, colour, texture" }
+            },
+            {
+              "type": "territory",
+              "key": "b",
+              "label": "Territory b",
+              "fields": [
+                { "key": "name", "label": "Territory b", "hint": "Name the direction in two or three words." },
+                { "key": "keywords", "label": "Keywords", "hint": "Three to five words this direction should feel like." }
+              ],
+              "moodboard": { "hint": "images, type, colour, texture" }
+            },
+            {
+              "type": "territory",
+              "key": "c",
+              "label": "Territory c",
+              "fields": [
+                { "key": "name", "label": "Territory c", "hint": "Name the direction in two or three words." },
+                { "key": "keywords", "label": "Keywords", "hint": "Three to five words this direction should feel like." }
+              ],
+              "moodboard": { "hint": "images, type, colour, texture" }
+            }
+          ]
+        },
+        {
+          "key": "concepts",
+          "code": "03.2",
+          "title": "concepts",
+          "description": "Two or three complete routes, not logo sketches. Each shows a logo, colour, type and at least one real application so it can be judged as a system.",
+          "tip": { "title": "rule", "text": "Never present a route you would not be happy to build. The client may pick it." },
+          "blocks": [
+            {
+              "type": "concept",
+              "key": "a",
+              "label": "Concept a",
+              "slot": { "hint": "logo, colour, type, one application" },
+              "fields": [
+                { "key": "idea", "label": "Idea", "hint": "How this route expresses the brand idea from 02.4." },
+                { "key": "against_brief", "label": "Against the brief", "hint": "Score it on the evaluation criteria from 02.7. Strengths and risks." }
+              ]
+            },
+            {
+              "type": "concept",
+              "key": "b",
+              "label": "Concept b",
+              "slot": { "hint": "logo, colour, type, one application" },
+              "fields": [
+                { "key": "idea", "label": "Idea", "hint": "How this route expresses the brand idea from 02.4." },
+                { "key": "against_brief", "label": "Against the brief", "hint": "Score it on the evaluation criteria from 02.7. Strengths and risks." }
+              ]
+            },
+            {
+              "type": "concept",
+              "key": "c",
+              "label": "Concept c",
+              "slot": { "hint": "logo, colour, type, one application" },
+              "fields": [
+                { "key": "idea", "label": "Idea", "hint": "How this route expresses the brand idea from 02.4." },
+                { "key": "against_brief", "label": "Against the brief", "hint": "Score it on the evaluation criteria from 02.7. Strengths and risks." }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "logo",
+          "code": "03.3",
+          "title": "logo",
+          "description": "The chosen route refined into a logo system: every version needed to work from a favicon to a billboard.",
+          "tip": { "title": "test", "text": "Check it at 16 px, in one colour, on photo, on dark and next to competitors." },
+          "blocks": [
+            { "type": "slot", "key": "primary_logo", "label": "primary logo" },
+            { "type": "slot", "key": "secondary_lockup", "label": "secondary lockup", "hint": "horizontal or stacked" },
+            { "type": "slot", "key": "symbol", "label": "symbol" },
+            { "type": "slot", "key": "wordmark", "label": "wordmark" },
+            { "type": "field", "key": "clear_space", "label": "Clear space and minimum size", "hint": "Unit of measure, exclusion zone, smallest size for print and screen." },
+            { "type": "field", "key": "colour_versions", "label": "Colour versions", "hint": "Full colour, one colour, reversed. Which backgrounds each one is for." },
+            { "type": "field", "key": "misuse", "label": "Misuse", "hint": "Do not stretch, recolour, outline, rotate or add effects. Show examples." }
+          ]
+        },
+        {
+          "key": "colour",
+          "code": "03.4",
+          "title": "colour",
+          "description": "A palette with clear roles. Fewer colours used with discipline are more recognisable than a wide palette.",
+          "tip": { "title": "source", "text": "01.4 competitors. Choose where the category leaves space, not what is fashionable." },
+          "blocks": [
+            { "type": "swatch", "key": "primary", "label": "primary" },
+            { "type": "swatch", "key": "secondary", "label": "secondary" },
+            { "type": "swatch", "key": "accent", "label": "accent" },
+            { "type": "swatch", "key": "neutral_dark", "label": "neutral dark" },
+            { "type": "swatch", "key": "neutral_light", "label": "neutral light" },
+            { "type": "field", "key": "proportions", "label": "Proportions", "hint": "How much of each colour appears. Start from 60 / 30 / 10." },
+            { "type": "field", "key": "accessibility", "label": "Accessibility", "hint": "Text and background pairs that pass WCAG AA contrast." },
+            { "type": "field", "key": "meaning", "label": "Meaning", "hint": "Why these colours, linked to the strategy and the brand idea." }
+          ],
+          "swatchFields": ["name", "hex", "rgb", "cmyk", "pantone"]
+        },
+        {
+          "key": "typography",
+          "code": "03.5",
+          "title": "typography",
+          "description": "The voice of the brand in letters. One or two typefaces, a clear hierarchy and rules simple enough for a non-designer to follow.",
+          "tip": { "title": "check", "text": "Language support, licence for web and app, performance, a free fallback for documents." },
+          "blocks": [
+            { "type": "slot", "key": "type_specimen", "label": "type specimen", "hint": "Aa, alphabet, numerals, sample headline and paragraph" },
+            { "type": "field", "key": "primary_typeface", "label": "Primary typeface", "hint": "Name, foundry, weights in use. What it is used for." },
+            { "type": "field", "key": "secondary_typeface", "label": "Secondary typeface", "hint": "Optional. Only if it has a job the primary cannot do." },
+            { "type": "field", "key": "hierarchy", "label": "Hierarchy", "hint": "Display, heading, subheading, body, caption. Size, weight, line height." },
+            { "type": "field", "key": "rules", "label": "Rules", "hint": "Case, alignment, tracking, maximum line length. What to avoid." }
+          ]
+        },
+        {
+          "key": "imagery",
+          "code": "03.6",
+          "title": "imagery and graphic language",
+          "description": "Everything beyond logo, colour and type that makes the brand recognisable with the logo covered.",
+          "tip": { "title": "test", "text": "Hide the logo. Is it still clearly this brand?" },
+          "blocks": [
+            { "type": "slot", "key": "photography_examples", "label": "photography", "hint": "examples of the right style" },
+            { "type": "field", "key": "photography", "label": "Photography", "hint": "Subject, light, colour grade, composition. What we never show." },
+            { "type": "slot", "key": "illustration_examples", "label": "illustration and icons", "hint": "examples and construction" },
+            { "type": "field", "key": "illustration", "label": "Illustration and icons", "hint": "Style, stroke weight, corner radius, level of detail." },
+            { "type": "slot", "key": "graphic_examples", "label": "graphic language", "hint": "shapes, patterns, grid, motion" },
+            { "type": "field", "key": "graphic_language", "label": "Graphic language", "hint": "Devices derived from the logo or idea. Layout grid and motion principles." }
+          ]
+        },
+        {
+          "key": "applications",
+          "code": "03.7",
+          "title": "applications",
+          "description": "The system tested on real touchpoints from the creative brief. This is where weak identities break and strong ones come alive.",
+          "tip": { "title": "source", "text": "02.7 creative brief, must work on. Replace these six with the real priority touchpoints." },
+          "blocks": [
+            { "type": "slot", "key": "stationery", "label": "stationery", "hint": "business card, letterhead" },
+            { "type": "slot", "key": "website_app", "label": "website or app", "hint": "key screen" },
+            { "type": "slot", "key": "social", "label": "social media", "hint": "profile, post, story" },
+            { "type": "slot", "key": "packaging", "label": "packaging or product" },
+            { "type": "slot", "key": "signage", "label": "signage and environment" },
+            { "type": "slot", "key": "presentation_merch", "label": "presentation or merch" }
+          ]
+        },
+        {
+          "key": "review",
+          "code": "03.8",
+          "title": "review and sign-off",
+          "description": "The identity checked against the strategy before it goes into guidelines. Judge by the agreed criteria, not by taste.",
+          "tip": { "title": "next", "text": "04 guidelines and delivery: brand book, asset library, templates, handoff." },
+          "blocks": [
+            { "type": "field", "key": "on_strategy", "label": "On strategy", "hint": "Does it express the positioning and brand idea? Point to where." },
+            { "type": "field", "key": "distinctive", "label": "Distinctive", "hint": "Next to competitors, is it clearly different and ownable?" },
+            { "type": "field", "key": "works_everywhere", "label": "Works everywhere", "hint": "Small, large, one colour, light and dark, print and screen, motion." },
+            { "type": "field", "key": "flexible_system", "label": "Flexible system", "hint": "Can it produce new layouts without the designer in the room?" },
+            { "type": "field", "key": "accessible", "label": "Accessible", "hint": "Contrast, legibility, colour not the only signal." },
+            { "type": "signoff", "key": "signoff", "label": "Sign-off", "hint": "Client name, date, approved to move to 04 guidelines and delivery." }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "guidelines",
+      "number": "04",
+      "title": "Guidelines",
+      "summary": "Turn the identity into a system the client can use without you: clear rules, complete files, ready templates.",
+      "pages": [
+        {
+          "key": "structure",
+          "code": "04.1",
+          "title": "guideline structure",
+          "description": "Decide what kind of guideline this client needs before writing a page. A guide nobody opens protects nothing.",
+          "tip": { "title": "principle", "text": "Write for the least experienced person who will use it." },
+          "blocks": [
+            { "type": "field", "key": "audience", "label": "Audience", "hint": "Who will use it: marketing, agencies, developers, printers." },
+            { "type": "field", "key": "format", "label": "Format", "hint": "PDF, Figma file or web brand book. Where it lives and who can access it." },
+            { "type": "field", "key": "depth", "label": "Depth", "hint": "One-page lite guide, standard guide or full brand book. Match the size of the client." },
+            { "type": "field", "key": "chapters", "label": "Chapters", "hint": "List the chapters this client actually needs. Cut the rest." },
+            { "type": "field", "key": "writing_style", "label": "Writing style", "hint": "Short rules, real examples, do and do not. No essays." },
+            { "type": "field", "key": "versioning", "label": "Versioning", "hint": "Version number, date, owner, how changes are requested." }
+          ]
+        },
+        {
+          "key": "brand_guidelines",
+          "code": "04.2",
+          "title": "brand guidelines",
+          "description": "The rules for every element from 03, written so that someone else can produce on-brand work. Tick off each chapter when it is written and illustrated.",
+          "tip": { "title": "rule", "text": "Every rule gets an example. Every do gets a do not." },
+          "blocks": [
+            { "type": "checklist", "key": "foundation", "label": "Foundation", "items": [
+              { "key": "brand_on_a_page", "label": "Brand on a page: purpose, positioning, idea" },
+              { "key": "personality_values", "label": "Personality and values" },
+              { "key": "tone_of_voice", "label": "Tone of voice with examples" }
+            ] },
+            { "type": "checklist", "key": "logo", "label": "Logo", "items": [
+              { "key": "versions", "label": "Versions and when to use each" },
+              { "key": "clear_space", "label": "Clear space and minimum size" },
+              { "key": "colour_versions", "label": "Colour versions and backgrounds" },
+              { "key": "misuse", "label": "Misuse examples" }
+            ] },
+            { "type": "checklist", "key": "colour", "label": "Colour", "items": [
+              { "key": "palette_values", "label": "Palette with all values" },
+              { "key": "roles_proportions", "label": "Roles and proportions" },
+              { "key": "accessible_pairs", "label": "Accessible colour pairs" }
+            ] },
+            { "type": "checklist", "key": "typography", "label": "Typography", "items": [
+              { "key": "typefaces_licences", "label": "Typefaces and licences" },
+              { "key": "hierarchy_scale", "label": "Hierarchy and scale" },
+              { "key": "fallback_fonts", "label": "Fallback fonts" }
+            ] },
+            { "type": "checklist", "key": "imagery", "label": "Imagery and graphics", "items": [
+              { "key": "photography", "label": "Photography style" },
+              { "key": "illustration_icons", "label": "Illustration and icons" },
+              { "key": "graphic_devices", "label": "Graphic devices and grid" },
+              { "key": "motion", "label": "Motion principles" }
+            ] },
+            { "type": "checklist", "key": "in_use", "label": "In use", "items": [
+              { "key": "application_examples", "label": "Application examples" },
+              { "key": "do_dont", "label": "Do and do not" },
+              { "key": "contact", "label": "Contact for brand questions" }
+            ] }
+          ]
+        },
+        {
+          "key": "asset_library",
+          "code": "04.3",
+          "title": "asset library",
+          "description": "Every final file the client needs, exported, named and organised so that anyone can find the right logo in ten seconds.",
+          "tip": { "title": "naming", "text": "brand_asset_version_colour_format. Lowercase, no spaces, no final_v2." },
+          "blocks": [
+            { "type": "checklist", "key": "logo_files", "label": "Logo files", "items": [
+              { "key": "formats", "label": "SVG, PDF and PNG" },
+              { "key": "colour_modes", "label": "RGB, CMYK, one colour, reversed" },
+              { "key": "lockups_symbol", "label": "All lockups and the symbol" },
+              { "key": "favicon_app_icon", "label": "Favicon and app icon" },
+              { "key": "social_avatars", "label": "Social avatars" }
+            ] },
+            { "type": "checklist", "key": "colour", "label": "Colour", "items": [
+              { "key": "swatch_files", "label": "Swatch files" },
+              { "key": "tokens", "label": "Figma variables or design tokens" },
+              { "key": "print_references", "label": "Print references" }
+            ] },
+            { "type": "checklist", "key": "type", "label": "Type", "items": [
+              { "key": "font_files", "label": "Font files or download links" },
+              { "key": "licences", "label": "Licence documents" },
+              { "key": "fallback_list", "label": "Fallback list" }
+            ] },
+            { "type": "checklist", "key": "graphics", "label": "Graphics", "items": [
+              { "key": "icon_set", "label": "Icon set in SVG" },
+              { "key": "patterns", "label": "Patterns and graphic devices" },
+              { "key": "photo_selects", "label": "Photo selects with usage rights" },
+              { "key": "illustration_sources", "label": "Illustration source files" }
+            ] },
+            { "type": "checklist", "key": "structure", "label": "Structure", "items": [
+              { "key": "folders", "label": "Folder structure agreed" },
+              { "key": "naming", "label": "File naming convention applied" },
+              { "key": "readme", "label": "Read me file at the top level" }
+            ] },
+            { "type": "checklist", "key": "source_files", "label": "Source files", "items": [
+              { "key": "figma_clean", "label": "Figma file cleaned and organised" },
+              { "key": "editable_masters", "label": "Editable masters" },
+              { "key": "outlined_print", "label": "Outlined copies for print" }
+            ] }
+          ]
+        },
+        {
+          "key": "templates",
+          "code": "04.4",
+          "title": "templates",
+          "description": "Ready-to-use files for the priority touchpoints from the creative brief. Templates are where the brand survives day-to-day work.",
+          "tip": { "title": "source", "text": "02.7 creative brief, must work on. Build only what the client will actually use." },
+          "blocks": [
+            { "type": "checklist", "key": "social", "label": "Social", "items": [
+              { "key": "profile_cover", "label": "Profile and cover images" },
+              { "key": "posts", "label": "Post templates" },
+              { "key": "stories", "label": "Story templates" }
+            ] },
+            { "type": "checklist", "key": "presentation", "label": "Presentation", "items": [
+              { "key": "master_deck", "label": "Master deck" },
+              { "key": "slide_types", "label": "Title, section and content slides" },
+              { "key": "charts_tables", "label": "Charts and tables" }
+            ] },
+            { "type": "checklist", "key": "documents", "label": "Documents", "items": [
+              { "key": "letterhead", "label": "Letterhead" },
+              { "key": "invoice_proposal", "label": "Invoice and proposal" },
+              { "key": "email_signature", "label": "Email signature" }
+            ] },
+            { "type": "checklist", "key": "print", "label": "Print", "items": [
+              { "key": "business_card", "label": "Business card" },
+              { "key": "print_ready", "label": "Print-ready files with bleed" },
+              { "key": "printer_specs", "label": "Printer specifications" }
+            ] },
+            { "type": "checklist", "key": "digital", "label": "Digital", "items": [
+              { "key": "ui_kit", "label": "UI kit or component library" },
+              { "key": "design_tokens", "label": "Design tokens" },
+              { "key": "favicon_share", "label": "Favicon and share image" }
+            ] },
+            { "type": "checklist", "key": "usability", "label": "Usability", "items": [
+              { "key": "editable_tools", "label": "Editable in the tools the client uses" },
+              { "key": "placeholders_obvious", "label": "Placeholder content is obvious" },
+              { "key": "tested_non_designer", "label": "Tested by a non-designer" }
+            ] }
+          ]
+        },
+        {
+          "key": "quality_check",
+          "code": "04.5",
+          "title": "quality check",
+          "description": "The last pass before anything leaves your hands. Mistakes found by the client after delivery cost trust.",
+          "tip": { "title": "test", "text": "Give the package to someone outside the project. Ask them to make one layout using only the guide." },
+          "blocks": [
+            { "type": "checklist", "key": "files", "label": "Files", "items": [
+              { "key": "opens", "label": "Every file opens" },
+              { "key": "names", "label": "Names follow the convention" },
+              { "key": "no_missing", "label": "No missing links or fonts" }
+            ] },
+            { "type": "checklist", "key": "colour", "label": "Colour", "items": [
+              { "key": "values_match", "label": "Values match across all formats" },
+              { "key": "print_proof", "label": "Print proof checked" },
+              { "key": "contrast", "label": "Contrast passes WCAG AA" }
+            ] },
+            { "type": "checklist", "key": "logo", "label": "Logo", "items": [
+              { "key": "clean_vectors", "label": "Vectors are clean, no stray points" },
+              { "key": "small_sizes", "label": "Small sizes tested" },
+              { "key": "pixel_aligned", "label": "Exports are pixel aligned" }
+            ] },
+            { "type": "checklist", "key": "guideline", "label": "Guideline", "items": [
+              { "key": "spelling_facts", "label": "Spelling and facts checked" },
+              { "key": "examples", "label": "Every rule has an example" },
+              { "key": "links", "label": "Links work" }
+            ] },
+            { "type": "checklist", "key": "legal", "label": "Legal", "items": [
+              { "key": "font_licences", "label": "Font licences cover the real use" },
+              { "key": "image_rights", "label": "Image rights cleared" },
+              { "key": "trademark", "label": "Trademark status noted" }
+            ] },
+            { "type": "checklist", "key": "user_test", "label": "User test", "items": [
+              { "key": "outsider_layout", "label": "An outsider made a layout with the guide" },
+              { "key": "gaps_fixed", "label": "Gaps found in the test are fixed" }
+            ] }
+          ]
+        },
+        {
+          "key": "handover",
+          "code": "04.6",
+          "title": "handover and launch",
+          "description": "Delivery is a moment, not an email with a link. Make sure the client team knows how to use the brand and who owns it from now on.",
+          "tip": { "title": "how to", "text": "Present the guide live, record the session and send the recording with the files." },
+          "blocks": [
+            { "type": "field", "key": "handover_session", "label": "Handover session", "hint": "Walk the client team through the guide and the files. Date and attendees." },
+            { "type": "field", "key": "rights", "label": "Rights and ownership", "hint": "What is transferred, when, and what stays with the designer." },
+            { "type": "field", "key": "rollout", "label": "Rollout priorities", "hint": "What changes first, what waits. Old assets to retire." },
+            { "type": "field", "key": "launch_plan", "label": "Launch plan", "hint": "Internal reveal, external launch date, channels, announcement." },
+            { "type": "field", "key": "brand_owner", "label": "Brand owner", "hint": "The person on the client side who protects the brand after you leave." },
+            { "type": "field", "key": "support_period", "label": "Support period", "hint": "How long questions and small fixes are included, and what costs extra." },
+            { "type": "field", "key": "final_delivery", "label": "Final delivery", "hint": "Link to the package, date sent, confirmation received." },
+            { "type": "signoff", "key": "signoff", "label": "Sign-off", "hint": "Client name, date, project approved as complete." }
+          ]
+        },
+        {
+          "key": "project_close",
+          "code": "04.7",
+          "title": "project close",
+          "private": true,
+          "description": "This page is for you, not the client. Capture the value of the project before moving to the next one.",
+          "tip": { "title": "when", "text": "Within a week of sign-off, while the details are fresh." },
+          "blocks": [
+            { "type": "field", "key": "case_study", "label": "Case study", "hint": "Permission to publish, assets to prepare. Story: problem, idea, result." },
+            { "type": "field", "key": "testimonial", "label": "Testimonial", "hint": "Ask the decision maker while the launch is fresh. One specific question works best." },
+            { "type": "field", "key": "results", "label": "Results to measure", "hint": "Return to the success criteria from 01. When and how to check them." },
+            { "type": "field", "key": "retrospective", "label": "Retrospective", "hint": "What worked, what did not, where time was lost." },
+            { "type": "field", "key": "process_updates", "label": "Process updates", "hint": "What to change in this template for the next project." },
+            { "type": "field", "key": "next_opportunities", "label": "Next opportunities", "hint": "Retainer, website, campaign, brand check-in after six months." }
+          ]
+        }
+      ]
+    }
+  ]
+}
