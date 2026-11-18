@@ -1,0 +1,68 @@
+/* Design tokens. Base values copied from dilshodegm.com (src/styles/tokens.css). */
+:root {
+  /* colour */
+  --dark-gray: #393939;
+  --white: #ffffff;
+  --light-gray: #e7e7e7;
+  --black: #000000;
+
+  --color-bg: var(--white);
+  --color-text: var(--dark-gray);
+  --color-muted: rgb(57 57 57 / 0.5); /* dark at 50%, for descriptions and hints */
+  --color-line: var(--dark-gray);
+  --color-line-soft: var(--light-gray);
+  --color-fill: var(--light-gray);
+
+  /* type */
+  --font-family-base: "Space Mono", ui-monospace, "Cascadia Mono", monospace;
+
+  --h1-size: 32px;
+  --h1-weight: 400;
+  --h1-line-height: 1;
+  --h1-letter-spacing: -0.02em;
+
+  --h3-size: 24px;
+  --h3-weight: 400;
+  --h3-line-height: 1;
+  --h3-letter-spacing: -0.02em;
+
+  --body-size: 16px;
+  --body-weight: 400;
+  --body-bold-weight: 700;
+  --body-line-height: 1.5;
+
+  --small-size: 13px;
+
+  /* shape */
+  --radius-none: 0;
+  --line: 1px;
+
+  /* spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 40px;
+  --space-6: 64px;
+  --space-7: 96px;
+
+  --page-gutter: 40px;
+  --aside-width: 520px;
+
+  /* breakpoints (reference only, media queries can't read variables) */
+  --bp-tablet: 1024px;
+  --bp-mobile: 600px;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --page-gutter: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    --page-gutter: 16px;
+    --h1-size: 26px;
+  }
+}
